@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #test{
+            width: 100%;
+            height: 500px;
+            border: 2px solid red;
+            display: flex;
+            
+        }
+        #test>div{
+            width: 18%;
+            height: 250px;
+            border: 5px solid green;
+            margin-top: 100px;
+            
+
+        }
+        #test>div:nth-child(4){
+            display: none;
+        }
+
+        @media screen and ( max-width:400px){
+            #test{
+                display: flex;
+                flex-direction: column;
+            }
+            #test>div{
+                width: 80%;
+                margin: auto;
+                height: 50px;
+                margin-top: 1px;;
+            }
+            #test>div:nth-child(4){
+            display: none;
+        }
+
+            
+        }
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="test">
+        <div>1</div>
+         <div>2</div>
+         <div>3</div>
+         <div>4</div>
+         <div>5</div>
+
+
+    </div>
+</body>
+</html>
