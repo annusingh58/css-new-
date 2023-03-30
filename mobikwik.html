@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobikwik</title>
+</head>
+    <style>
+        #screen{
+            height:1500px;
+            width: 100%;
+            border:5px solid red;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #screen>div:nth-child(1){
+            height: 500px;
+            width: 18%;
+            border:3px solid rgb(0,36,71);
+            margin-left: 2%;
+        }
+
+        #screen>div:nth-child(2){
+            height: 700px;
+            width: 74%;
+            border:3px solid yellow;
+            /* margin-top:0%; */
+        }
+        
+        #screen>div:nth-child(2)>div:nth-child(1){
+            width: 90%;
+            margin: auto;
+            height: 100px;
+            border:5px solid pink;
+        }
+        #screen>div:nth-child(2)>div:nth-child(2){
+            width: 90%;
+            margin: auto;
+            height: 200px;
+            border:5px solid orangered;
+            display: flex;
+        }
+        #screen>div:nth-child(2)>div:nth-child(3){
+            width: 90%;
+            margin: auto;
+            height: 200px;
+            border:5px solid gray;
+            display: flex;
+            justify-content: space-around;
+        }
+        #screen>div:nth-child(2)>div:nth-child(3)>div{
+            width: 23%;
+            height: 200px;
+            border: 4px solid black;
+        }
+
+
+         
+        
+        @media screen and (max-width:1080px){
+
+            #screen>div:nth-child(1){
+                display: none;
+            }
+            #screen>div:nth-child(2){
+            width: 90%;
+            margin: auto;
+            height: 100px;
+            border:5px solid green;
+            margin-top: 0%;
+        }
+        #screen>div:nth-child(2)>div:nth-child(2){
+            display: flex;
+            flex-direction: column;
+            
+        }
+        #screen>div:nth-child(2)>div:nth-child(2)> div> input{
+            width: 100%;
+
+        }
+        #screen>div:nth-child(2)>div:nth-child(3){
+        
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        #screen>div:nth-child(2)>div:nth-child(3)>div{
+            width: 100%;
+            height: 200px;
+            border: 4px solid black;
+        }
+
+
+
+    </style
+
+
+
+
+
+
+
+<body>
+    <div id="screen">
+        <div>left</div>
+        <div>
+            <div>navbar</div>
+            <div>body
+                <div>
+                    <label>Mobile Number</label></br>
+                    <input/>
+                    </div>
+                <div>
+                    <label>Operator</label></br>
+                    <input/>
+
+                    </div>
+                <div>
+                    <label>Circle</label></br>
+                    <input/>
+
+                    </div>
+                <div>
+                    <label>Amount</label></br>
+                    <input/>
+                    <div>
+                        <button> Go </button> 
+                        </div>
+                    </div>
+
+                
+                </div>
+                <div>
+
+    
+                    <div>
+                        <h4>Phone Recharge & DTH</h4>
+                        <p>With money loaded in your MobiKwik wallet, it takes seconds to make phone and DTH recharges!</p>
+                        </div>
+                    <div>
+                        <h4>Bill Payments</h4>
+                        <p>Pay all your bills across categories via MobiKwik in seconds and avoid late payment charges.</p>
+                        
+                        </div>
+                    <div>
+                        <h4>Shopping in Local Stores</h4>
+                        <p>With MobiKwik on your phone, enjoy over 2,50,000+ shopping options and earn big cashbacks and discounts in the process!</p>
+                        </div>
+                    <div>
+                        
+                        <h4>Transfer money to Bank</h4>
+                        <p>You can transfer money from Credit card to any Bank account.</p>
+                        </div>
+
+
+                 </div>
+        </div>
+
+    </div>
+</body>
+</html>
