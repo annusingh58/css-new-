@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+        #screen{
+            height: 1000px;
+            width: 100%;
+            border: 5px solid red;
+            display: flex;
+            justify-content: space-between;
+        }
+        #sidebar{
+            width :20%;
+            height: 700px;
+            border:1px solid blue;
+
+        }
+        #sidebar>div{
+            height: 70px;
+            width: 90%;
+            margin: auto;
+            
+        }
+        #sidebar>div>img{
+            height: 100%;
+            width: 100%;
+        }
+        #body{
+            width :75%;
+            height: 700px;
+            border:1px solid green;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="sidebar">
+            <div>
+                <img src="https://logosdownload.com/logo/mobikwik-logo-big.png"/>
+            </div>
+        </div>
+        <div id="body"></div>
+
+    </div>
+</body>
+</html>
