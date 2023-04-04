@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/5553f878fa.js" crossorigin="anonymous"></script>
     <style>
         *{
             padding: 0;
@@ -35,6 +36,27 @@
             height: 100%;
             width: 100%;
         }
+
+        #sidebar>div:nth-child(2){
+            height:400px;
+            width: 90%;
+            margin: auto;
+            border: 1px solid yellow;
+        }
+        #sidebar>div:nth-child(2)>div{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #sidebar>div:nth-child(2)>div>i{
+            width: 10%;
+        }
+        #sidebar>div:nth-child(2)>div>p{
+            width: 80%;
+        }
+        
+
         #body{
             width :75%;
             height: 700px;
@@ -49,6 +71,40 @@
             <div>
                 <img src="https://logosdownload.com/logo/mobikwik-logo-big.png"/>
             </div>
+            <div id="siderecharge">
+                <div>
+                    <i class="fa-solid fa-bolt"></i>
+                    <p> Recharge & Bill Pay</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-indian-rupee-sign"></i>
+                    <p>Transfer to Bank</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <p> offer & Deal</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Local Stores</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-spinner"></i>
+                    <p> Redeem Payback points</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wallet"></i>
+                    <p>Wallet Transfer</p>
+                </div>
+
+
+
+            </div>
+             <div id="product">
+
+
+             </div>
+
         </div>
         <div id="body"></div>
 
